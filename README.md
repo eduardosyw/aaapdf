@@ -14,7 +14,7 @@ Sistema de gestão para clínica multidisciplinar desenvolvido como projeto aval
 - **Profissionais** — Cadastro por especialidade (Clínico Geral, Fisioterapeuta, Psicólogo, Nutricionista) com gestão de horários
 - **Consultas** — Agendamento com controle de conflitos, cancelamento com regras de multa e remarcação
 - **Prontuários** — Registro clínico de atendimentos com composição estrita
-- **Pagamentos** — Processamento polimórfico para Dinheiro/Pix, Cartão e Convênio com cálculo automático de descontos
+- **Pagamentos** — Processamento para Dinheiro/Pix, Cartão e Convênio com cálculo automático de descontos
 - **Relatórios** — Visualização de dados por profissional, período e resumo financeiro
 
 ---
@@ -55,42 +55,15 @@ java br.com.vidaplena.Main
 
 ---
 
-## 🗂️ Estrutura do Projeto
-src/
-
-└── br/com/vidaplena/
-
-├── Main.java
-
-├── exceptions/        # Exceções personalizadas
-
-├── interfaces/        # Agendavel, Exportavel
-
-├── service/           # ClinicaServico (regras de negócio)
-
-└── model/
-
-├── pessoas/       # Pessoa, Paciente, Convenio
-
-├── profissionais/ # Profissional e especializações
-
-├── atendimentos/  # Consulta, Atendimento, Prontuario
-
-└── pagamentos/    # Pagamento e formas de pagamento
-
----
-
 ## 👥 Equipe
 
-| Integrante | Responsabilidade |
-|------------|-----------------|
-| Eduardo Ramalho Teixeira | Pessoas e Convênios |
-| Renan de Araújo Venturini Silva | Agendamentos e Prontuários |
-| Robson Windson Dantas de Almeida | Faturamento e Finanças |
-| João Victor Ferreira da Costa | (especialidade) |
-| Integrante 5 | Interfaces e Relatórios |
-| Integrante 6 | Exceções Personalizadas |
-| Integrante 7 | Serviço e Interface (Main) |
+- Eduardo Ramalho Teixeira
+- Renan de Araújo Venturini Silva
+- Robson Windson Dantas de Almeida
+- João Victor Ferreira da Costa
+- Integrante 5
+- Integrante 6
+- Integrante 7
 
 ---
 
